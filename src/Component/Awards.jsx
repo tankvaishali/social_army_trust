@@ -6,7 +6,6 @@ import { LiaCertificateSolid } from 'react-icons/lia';
 import { MdKeyboardDoubleArrowLeft } from "react-icons/md";
 import { TbFileCertificate } from 'react-icons/tb';
 import { Link } from 'react-router-dom';
-
 function Awards() {
     let cowdata02 = [
         {
