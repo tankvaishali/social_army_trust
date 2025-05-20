@@ -34,6 +34,9 @@ function Homepage() {
     <>
       <Carousel className='crslSlide' fade activeIndex={index} onSelect={() => { }}>
         <Carousel.Item className='setimage'>
+          <img src={require('../assets/image/HomePage/SAI_1984.jpg')} className="d-block w-100 slideImg object-fit-cover" alt='not Found' />
+        </Carousel.Item>
+        <Carousel.Item className='setimage'>
           <img src={require('../assets/image/HomePage/1.jpg')} className="d-block w-100 slideImg object-fit-cover" alt='not Found' />
         </Carousel.Item>
         <Carousel.Item className='setimage'>
@@ -42,13 +45,10 @@ function Homepage() {
         <Carousel.Item className='setimage'>
           <img src={require('../assets/image/HomePage/SAI_2997.JPG')} className="d-block w-100 slideImg object-fit-cover" alt='not Found' />
         </Carousel.Item>
-        <Carousel.Item className='setimage'>
-          <img src={require('../assets/image/HomePage/CrouselItem4.jpg')} className="d-block w-100 slideImg object-fit-cover" alt='not Found' />
-        </Carousel.Item>
       </Carousel>
 
       <AboutHome />
-      <Profile/>
+      <Profile />
       <BoxHome />
       <div className='donationimages'>
         <div className='container py-5'>

@@ -2,9 +2,10 @@ import React from 'react'
 import { BsFeather } from "react-icons/bs";
 import { MdKeyboardDoubleArrowLeft } from "react-icons/md";
 import { Link } from 'react-router-dom';
-function SeeAll() {
-  let eventdata001 = [
 
+function SeeAll() {
+
+  let eventdata001 = [
     { image: require('../assets/image/image_2024_03_12T05_52_59_404Z.png') },
     { image: require('../assets/image/shiksha/shiksha1 (3).png') },
     { image: require('../assets/image/Event/eventimage.jpg') },
@@ -20,25 +21,25 @@ function SeeAll() {
     { image: require('../assets/image/Event/SAI_2457.JPG') },
     { image: require('../assets/image/Event/SAI_2293.JPG') },
     { image: require('../assets/image/Event/SAI_3010.JPG') },
-
-
-
+    { image: require('../assets/image/Event/0A0A7226.jpg') },
+    { image: require('../assets/image/Event/0A0A7258.jpg') },
+    { image: require('../assets/image/Event/SAI_2070.jpg') },
   ]
+
   let eventvideo = [
     { src: "https://www.youtube.com/embed/ZHH79pP4d6k?si=X4TdCD2fhk5MdmSQ" },
     { src: "https://www.youtube.com/embed/00EjM-S7JKI?si=M276uqzmX5PrrZTT" },
     { src: "https://www.youtube.com/embed/HHMaweZPZsc" },
     { src: "https://www.youtube.com/embed/beppWeFJ_cI" },
     { src: "https://www.youtube.com/embed/K5p6Zwe5QcI" }
-
   ]
+
   return (
     <>
       <div className='container py-5 text-center'>
         <div className='abouththought fw-bold headcolor'> <span className='fs-3 '><BsFeather /></span>Our Blogs</div>
         <div className='abouthead fs-1 fw-bold'>Our <span className='headcolor'> Events</span>     </div>
         <div className="pera pt-1">Organizing impactful events is an essential aspect of our NGO's mission to create positive change and address pressing societal issues. These events serve as platforms to raise awareness, mobilize communities, and garner support for our various initiatives. Whether it's organizing educational seminars, Bhagwat Geeta leason , or community outreach programs, each event is meticulously planned to maximize its impact.</div>
-
 
         <div className='abouthead fs-1 fw-bold pt-5'>Our <span className='headcolor'> Gallery</span> </div>
         <div className='row  m-0 p-0 g-5'>
