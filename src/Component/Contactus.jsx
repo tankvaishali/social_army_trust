@@ -56,8 +56,7 @@ function Contactus() {
                         <div>
                             <div className=' contacticon  d-flex align-items-center justify-content-center'><FaMailBulk /></div>
                             <div className='fw-bold fs-3'>Our Email</div>
-                            <div className='pera display-6 fw-normal' style={{ textAlign: 'center' }}>official@socialarmytrust.com</div>
-
+                            <div className='pera display-6 fw-normal' style={{ textAlign: 'center' }}>official.socialarmytrust@gmail.com</div>
                         </div>
                     </div>
                     <div className='col-lg-4 col-md-4 col-sm-4 py-4 bg-white' >

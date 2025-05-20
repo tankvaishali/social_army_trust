@@ -75,7 +75,7 @@ function Footer() {
               Our <span className="spncolor"> Links</span>
             </div>
             <div className='text-white pera py-1'><span className='spncolor fs-3'><FaMapLocationDot /></span> Surat, Gujarat. </div>
-            <div className='text-white pera py-1 d-block d-lg-flex align-content-center align-items-center'><span className='spncolor fs-3'><IoIosMail /></span> official@socialarmytrust.com</div>
+            <div className='text-white pera py-1 d-block d-lg-flex align-content-center align-items-center'><span className='spncolor fs-3'><IoIosMail /></span>official.socialarmytrust@gmail.com</div>
             <div className='text-white pera py-1'><span className='spncolor fs-3'><MdWifiCalling3 /></span> (+91) 90676 65653</div>
           </div>
         </div>
